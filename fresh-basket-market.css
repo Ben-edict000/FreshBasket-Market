@@ -492,6 +492,8 @@ footer{
     .create-free-button{
         justify-self: center;
         color: #059669;
+        display: flex;
+        
        
 
     }
