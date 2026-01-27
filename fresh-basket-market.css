@@ -26,6 +26,12 @@ html{
     font-size:62.5%
 }
 
+@media(max-width:1280px){
+    html{
+        font-size: 50%;
+    }
+}
+
 body{
     font-size: 1.6rem;
 }
@@ -40,7 +46,7 @@ nav ul, li a{
     font-size: large;
 }
 
-@media(max-width:850px){
+@media(max-width:700px){
     nav{
         display: none;
     }
@@ -115,7 +121,7 @@ nav ul, li a{
     }
 }
 
-@media(max-width:750px){
+@media(max-width:740px){
     .section-one-left{
         display: none;
     }
@@ -135,8 +141,12 @@ nav ul, li a{
    color: #4b5563;
    width: fit-content;
 
+}
 
-
+@media(max-width:500px){
+    .same-day-grocerires-in-neighbourhood{
+        font-size: 1rem;
+    }
 }
 
 .section-one-main-title{
@@ -147,7 +157,7 @@ nav ul, li a{
 @media(max-width:900px){
    .section-one-main-title{
    font-size: 3rem;
-   max-width: 100%;
+   /* max-width: 100%; */
 } 
 }
 
@@ -230,7 +240,7 @@ img{
     /* margin-left: 112px; */
 }
 
-@media(max-width:1100px){
+@media(max-width:900px){
     img{
         width: 40rem;
         height: 30rem;
@@ -269,7 +279,7 @@ img{
   
 }
 
-@media(max-width:650px){
+@media(max-width:640px){
     .three-box-container{
         flex-direction: column;
         display: flex;
