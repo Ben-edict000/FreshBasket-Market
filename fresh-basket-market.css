@@ -417,10 +417,12 @@ footer{
     .footer-inner-box-child{
     height: fit-content;
     padding-bottom: 2rem;
+    padding-left: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    display: flex;
+
     }
 }
 @media(max-width:855px){
