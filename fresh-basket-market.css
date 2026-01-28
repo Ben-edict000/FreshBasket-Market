@@ -143,9 +143,10 @@ nav ul, li a{
 
 }
 
-@media(max-width:500px){
+@media(max-width:700px){
     .same-day-grocerires-in-neighbourhood{
         font-size: 1rem;
+        border: 1px solid black;
     }
 }
 
