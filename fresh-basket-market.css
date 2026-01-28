@@ -420,8 +420,8 @@ footer{
     padding-left: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    display: flex;
+    align-items: center;
+    justify-items: center;
 
     }
 }
@@ -472,6 +472,7 @@ footer{
         max-width: 80%;
         display: flex;
         justify-self: center;
+        text-align: center;
     }
 }
 
@@ -493,7 +494,8 @@ footer{
         justify-self: center;
         color: #059669;
         display: flex;
-        
+       /* padding: 0;  */
+       width: fit-content;
        
 
     }
