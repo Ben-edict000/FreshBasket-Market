@@ -143,6 +143,18 @@ nav ul, li a{
 
 }
 
+.basket{
+    color: #059669;
+}
+
+.search{
+    color: #059669;
+}
+
+.bike{
+    color: #059669;
+}
+
 @media(max-width:700px){
     .same-day-grocerires-in-neighbourhood{
         font-size: 1rem;
