@@ -225,6 +225,7 @@ nav ul, li a{
     display: inline-block;
     text-decoration: none;
     color: black;
+    display: flex;
 }
 
 @media(max-width:650px){
@@ -232,6 +233,7 @@ nav ul, li a{
     padding:1rem 2.8rem ;
     margin-top: 1rem;
     font-weight: 900;
+    display: flex;
     }
 }
 
