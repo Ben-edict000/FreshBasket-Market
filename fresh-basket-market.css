@@ -19,6 +19,10 @@
 @media(max-width:850px){
     .header{
     padding-right: 2rem;
+    padding-left: 1rem;
+    align-items: center;
+    /* padding-bottom: 1rem; */
+    height: 6rem;
     }
 }
 
@@ -57,6 +61,7 @@ nav ul, li a{
     color: #059669;
 }
 
+
 .sign-in-btn{
     text-decoration: none;
     padding:8px 1.5rem;
@@ -68,6 +73,8 @@ nav ul, li a{
     font-weight: bold;
 
 }
+
+
 
 
 
@@ -154,6 +161,20 @@ nav ul, li a{
 .bike{
     color: #059669;
 }
+@media(max-width:900px){
+    .bike{
+        color: #059669;
+    }
+
+    .basket{
+    color: #059669;
+}
+
+.search{
+    color: #059669;
+}
+
+}
 
 @media(max-width:700px){
     .same-day-grocerires-in-neighbourhood{
@@ -209,10 +230,10 @@ nav ul, li a{
     align-items: center;
 }
 
-@media(max-width:450px){
+@media(max-width:700px){
     .button-wrapper{
        justify-self: center;
-        
+        align-items: center;
     }
 }
 
@@ -244,9 +265,15 @@ nav ul, li a{
 @media(max-width:650px){
     .view-how-it-works-btn {
     padding:1rem 2.8rem ;
-    margin-top: 1rem;
     font-weight: 900;
     display: flex;
+    }
+}
+
+@media(max-width:700px){
+    .view-how-it-works-btn {
+      padding: 8px 1.5rem;
+       
     }
 }
 
